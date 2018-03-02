@@ -4,7 +4,10 @@
   "description": "Ryan's Amesome Shop",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "mongodb": "^3.0.3",
+    "mongoose": "^4.11.2",
+    "mongoose-auto-increment": "^5.0.1"
   },
   "devDependencies": {},
   "scripts": {

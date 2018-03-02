@@ -1,4 +1,19 @@
+// Express 웹 프레임워크 로드
 var express = require('express');
+
+// Load Mongoose, an intermediate between MongoDB and Node.js
+var mongoose = require('mongoose');
+var autoIncrement = require('mongoose-auto-increment');
+
+// Create a Mongoose object
+var db = mongoose.connection;
+db.on('error', console.error);
+db.once('open', function() {
+    console.log("Connected to MongoDB");
+});
+
+// Create an object and connect to MongoDB
+var connect = mongoose.connect('mongodb://127.0.0.1:27017/ryaneshop', { useMongoClient: true });
 
 var app = express();
 var port = 3000;
