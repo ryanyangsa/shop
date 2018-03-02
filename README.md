@@ -2,7 +2,7 @@
 
 Node.js로 쇼핑몰 프로젝트 실습을 복습하기 위한 저장소입니다. 만들었던 것을 처음부터 다시 만들며 지난 7주 동안 배웠던 것들을 저의 지식으로 만드는 것이 목표입니다.
 
-![Ryan shivering](./image/ryan_shivering.jpg =100x100) 
+![an image of shivering Ryan](./image/ryan_shivering.jpg "Shivering Ryan") 
 
 ## 2018.2.10
 * Node.js 수업 복습 시작
